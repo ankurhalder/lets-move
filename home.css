@@ -1,0 +1,35 @@
+/* CSS for Home Page */
+.home-page {
+  background-image: url("background.jpg"); /* Replace 'background.jpg' with your background image file */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-page h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.home-page p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}

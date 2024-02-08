@@ -1,0 +1,44 @@
+/* CSS for Navbar */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar .logo {
+  float: left;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar .logo img {
+  height: 40px; /* Adjust height as needed */
+  margin-right: 10px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: none;
+}
+
+.navbar button {
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
